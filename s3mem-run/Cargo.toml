@@ -8,7 +8,7 @@ anyhow = "1.0"
 aws-config = { version = "1.5", default-features = false, features = ["rt-tokio"] }
 aws-sdk-s3 = { version = "1.74", default-features = false, features = ["rustls"] }
 clap = { version = "4.0", features = ["derive", "env"] }
-tokio = { version = "1.0", default-features = false, features = ["rt-multi-thread", "macros", "io-util"] }
+tokio = { version = "1.43", default-features = false, features = ["rt-multi-thread", "macros", "io-util"] }
 futures = "0.3"
 libc = "0.2"
 tracing = "0.1"
